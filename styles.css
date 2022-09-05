@@ -41,15 +41,16 @@ body {
 .slide h3 {
     position: absolute;
     font-size: 22px;
-    left: 2000px;
+    left: 20px;
     bottom: 20px;
+    opacity: 0;
 }
 
 .slide.active {
-    flex: 10;
+    flex: 20;
 }
 
 .slide.active h3 {
-    left: 20px;
-    transition: left 0.5s ease-in-out;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
 }
